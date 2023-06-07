@@ -1,0 +1,19 @@
+.nav-item {
+  @apply m-2 flex justify-between items-center rounded-xl text-textColor1 hover:text-secondColor hover:bg-purple p-5;
+}
+
+.count-item {
+  @apply rounded-full inline-flex items-center justify-center w-7 h-7 text-xs font-bold bg-secondColor group-hover:bg-secondColor/30;
+}
+
+.badge-item {
+  @apply flex items-center bg-orange group-hover:bg-secondColor/30 text-secondColor text-xs font-bold px-3.5 py-0.5 rounded-full h-[30px];
+}
+
+.user-item {
+  @apply mx-6 my-4 flex justify-between items-center rounded-xl text-textColor1;
+}
+
+.user-action {
+  @apply w-[10px] h-[10px] rounded-full border-[3px];
+}

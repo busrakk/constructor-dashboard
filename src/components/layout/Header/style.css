@@ -1,5 +1,5 @@
 .header {
-  @apply flex justify-between items-center p-8 flex-wrap;
+  @apply container flex justify-between items-center py-8 flex-wrap;
 }
 
 .header-left {
@@ -19,7 +19,7 @@
 }
 
 .menu-item {
-  @apply block mt-4 lg:inline-block lg:mt-0;
+  @apply block hover:text-purple mt-4 lg:inline-block lg:mt-0;
 }
 
 .hidden-item {

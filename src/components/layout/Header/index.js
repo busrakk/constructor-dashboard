@@ -14,7 +14,7 @@ import "./style.css";
 
 const Header = () => {
   return (
-    <div className="header">
+    <div className="header min-w-full">
       <div className="header-left">
         <div className="icons hidden-item">
           <MENU_ICON size={24} />
@@ -27,7 +27,7 @@ const Header = () => {
         <span className="logo">Constructor</span>
       </div>
       <div className="menu">
-        <a href="/#" className="menu-item text-purple">
+        <a href="/#" className="menu-item">
           Dashboard
         </a>
         <a href="/#" className="menu-item">

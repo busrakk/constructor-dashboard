@@ -20,6 +20,15 @@ module.exports = {
       textColor4: "#ADB8CC",
       textColor5: "#4D5E80",
     },
+    container: {
+      padding: {
+        DEFAULT: "1rem",
+        sm: "2rem",
+        lg: "4rem",
+        xl: "5rem",
+        "2xl": "6rem",
+      },
+    },
     extend: {},
   },
   plugins: [],
