@@ -1,0 +1,51 @@
+.header {
+  @apply flex justify-between items-center p-8 flex-wrap;
+}
+
+.header-left {
+  @apply flex items-center flex-shrink-0 lg:space-x-10;
+}
+
+.header-right {
+  @apply justify-between space-x-8 hidden-item;
+}
+
+.logo {
+  @apply font-bold text-lg tracking-tight text-textColor5 lg:text-textColor1 leading-8 ml-6;
+}
+
+.menu {
+  @apply text-xs font-bold text-textColor1 space-x-8 hidden-item ml-24;
+}
+
+.menu-item {
+  @apply block mt-4 lg:inline-block lg:mt-0;
+}
+
+.hidden-item {
+  @apply lg:flex lg:items-center lg:w-auto hidden lg:mt-0;
+}
+
+.icons {
+  @apply p-4 text-textColor2 rounded-full bg-secondColor;
+}
+
+.icon-item {
+  @apply text-textColor2 mt-3;
+}
+
+.text-item {
+  @apply rounded-3xl flex-1 appearance-none w-[300px] h-[50px] py-2 px-4 bg-secondColor text-textColor4 shadow-sm text-xs focus:outline-none  font-bold;
+}
+
+.button-item {
+  @apply relative inline-flex items-center p-4 text-sm font-medium text-center focus:outline-none bg-purple/10 rounded-full w-12 h-12;
+}
+
+.notification-icon {
+  @apply absolute inline-flex items-center justify-center w-5 h-5 text-xs font-bold text-secondColor bg-purple border-2 rounded-full -top-1 -right-1;
+}
+
+.search-item {
+  @apply text-item placeholder:text-textColor4 placeholder:m-4;
+}

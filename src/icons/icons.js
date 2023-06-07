@@ -14,13 +14,20 @@ import {
 import { LuLayoutDashboard } from "react-icons/lu";
 import { AiFillFile, AiOutlinePlusCircle } from "react-icons/ai";
 import { TfiMenuAlt } from "react-icons/tfi";
-import { BsFillBookmarkFill, BsChatLeftTextFill } from "react-icons/bs";
+import {
+  BsFillBookmarkFill,
+  BsChatLeftTextFill,
+  BsPersonCircle,
+} from "react-icons/bs";
+import { FiMenu } from "react-icons/fi";
 
 export const MENU_ICON = CgMenuGridR;
+export const MENU_ICON2 = FiMenu;
 export const SEARCH_ICON = IoMdSearch;
 export const NOTIFICATIONS_ICON = IoMdNotifications;
 export const MESSAGE_ICON = MdMessage;
 export const PEOPLE_ICON = MdPeopleAlt;
+export const PERSON_ICON = BsPersonCircle;
 export const BAR_CHART_ICON = BiBarChartSquare;
 export const DASHBOARD_ICON = LuLayoutDashboard;
 export const FILE_ICON = AiFillFile;
