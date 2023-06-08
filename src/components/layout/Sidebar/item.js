@@ -18,7 +18,7 @@ const Item = (props) => {
   } else if (props.count) {
     content = <span className="count-item">{props.count}</span>;
   } else {
-    content = <span class="badge-item">NEW</span>;
+    content = <span className="badge-item">NEW</span>;
   }
 
   return (

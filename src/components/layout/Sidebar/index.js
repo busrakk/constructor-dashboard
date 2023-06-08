@@ -20,8 +20,8 @@ const Sidebar = () => {
   };
 
   return (
-    <div class="lg:w-[280px] lg:h-[60px] bg-background lg:block hidden">
-      <ul class="border-2 border-textColor4/20 rounded-2xl">
+    <div className="lg:w-[280px] lg:h-[60px] bg-background lg:block hidden">
+      <ul className="border-2 border-textColor4/20 rounded-2xl">
         <Item
           icon={
             <DASHBOARD_ICON

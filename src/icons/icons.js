@@ -12,7 +12,7 @@ import {
   BiDotsHorizontalRounded,
   BiDotsVerticalRounded,
 } from "react-icons/bi";
-import { AiFillFile, AiOutlinePlusCircle } from "react-icons/ai";
+import { AiFillFile, AiOutlinePlus } from "react-icons/ai";
 import { TfiMenuAlt } from "react-icons/tfi";
 import {
   BsFillBookmarkFill,
@@ -38,7 +38,7 @@ export const CATEGORİES_ICON = TfiMenuAlt;
 export const TAGS_ICON = BsFillBookmarkFill;
 export const COMMENTS_ICON = BsChatLeftTextFill;
 export const SETTING_ICON = IoMdSettings;
-export const PLUS_ICON = AiOutlinePlusCircle;
+export const PLUS_ICON = AiOutlinePlus;
 export const DOT_H_ICON = BiDotsHorizontalRounded;
 export const DOT_V_ICON = BiDotsVerticalRounded;
 export const DOWN_ICON = HiOutlineChevronDown;
