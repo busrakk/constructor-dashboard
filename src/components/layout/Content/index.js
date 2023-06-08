@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "./Card/Card";
+import UserStat from "./UserStat";
 
 const Content = () => {
   return (
@@ -7,7 +8,7 @@ const Content = () => {
       <div className="grid lg:grid-cols-2 grid-cols-1">
         <div className="row-span-2">
           <Card />
-          <div>grafik</div>
+          <UserStat />
         </div>
         <div className="row-span-2">2. kısım</div>
       </div>

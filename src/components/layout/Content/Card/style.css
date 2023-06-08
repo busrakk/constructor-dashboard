@@ -1,0 +1,27 @@
+.card {
+  @apply flex items-center justify-between;
+}
+
+.number {
+  @apply flex justify-center items-center mt-2 text-[22px] font-bold leading-[30px];
+}
+
+.icon {
+  @apply p-1 text-xs text-secondColor/60 uppercase rounded-full;
+}
+
+.bottom-part {
+  @apply flex items-center justify-center mt-4;
+}
+
+.bottom-left {
+  @apply flex items-center mr-2 cursor-pointer w-[30px] h-[30px] px-2 py-2  text-base rounded-full text-secondColor  bg-textColor1/20;
+}
+
+.bottom-right {
+  @apply mr-2 cursor-pointer;
+}
+
+.bottom-title {
+  @apply px-2 py-2 leading-5 text-[10px] rounded-full font-bold bg-textColor1/20;
+}
