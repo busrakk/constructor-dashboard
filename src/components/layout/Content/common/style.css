@@ -1,0 +1,60 @@
+.content {
+    @apply flex flex-wrap -mb-px justify-between;
+  }
+  
+  .dropdown {
+    @apply block lg:hidden p-4 rounded-t-lg;
+  }
+  
+  .header-part {
+    @apply text-sm font-medium text-center p-2;
+  }
+  
+  .title {
+    @apply inline-block font-bold text-[13px] leading-6 p-4 text-textColor5;
+  }
+  
+  .tabs {
+    @apply justify-between lg:flex lg:items-center lg:w-auto hidden lg:mt-0;
+  }
+  
+  .tab-item {
+    @apply inline-block leading-5 font-black text-[12px] p-4 text-textColor4;
+  }
+  
+  .active-tab {
+    @apply focus:border-purple focus:border-b-2 focus:text-purple;
+  }
+  
+  .active-dropdown {
+    @apply focus:border-purple hover:text-secondColor text-textColor5;
+  }
+  
+  .dropdown-part {
+    @apply block lg:hidden p-4 rounded-t-lg;
+  }
+  
+  .dropdown-menus {
+    @apply z-10 bg-secondColor rounded-xl shadow w-[80px] mb-4;
+  }
+  
+  .dropdown-menu {
+    @apply block rounded-xl text-textColor1 font-black text-[10px] leading-5 hover:bg-purple;
+  }
+  
+  .dropdown-title {
+    @apply font-bold text-[10px] leading-5 text-textColor1;
+  }
+  
+  .button {
+    @apply flex justify-between items-center w-[84px] h-[30px] mr-8 p-2 text-textColor2 rounded-full border-2 bg-secondColor;
+  }
+  
+  .icon-dot {
+    @apply inline-block p-4 rounded-t-lg text-textColor2;
+  }
+  
+  .line {
+    @apply h-[1px] mt-0 bg-textColor4/30;
+  }
+  
