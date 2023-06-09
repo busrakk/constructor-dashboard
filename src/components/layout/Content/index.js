@@ -4,6 +4,7 @@ import SiteSpeed from "./SiteSpeed";
 import Dropdown from "./common/Dropdown";
 import HBarChart from "./Charts/HBarChart";
 import VBarChart from "./Charts/VBarChart";
+import Month from "./LatestEvents/month/Month";
 
 const Content = () => {
   return (
@@ -21,7 +22,17 @@ const Content = () => {
             active3="Tab 3 Content"
           />
         </div>
-        <div className="row-span-2">2. kısım</div>
+        <div className="row-span-2">
+          <Dropdown
+            title="Latest Events"
+            content1="Month"
+            content2="6 Month"
+            content3="Year"
+            active1={<Month />}
+            active2="Tab 2 Content"
+            active3="Tab 3 Content"
+          />
+        </div>
       </div>
 
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-6">

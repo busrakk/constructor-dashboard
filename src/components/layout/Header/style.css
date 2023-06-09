@@ -31,7 +31,7 @@
 }
 
 .icon-item {
-  @apply text-textColor2 mt-3;
+  @apply text-textColor2 hover:text-purple mt-3;
 }
 
 .text-item {

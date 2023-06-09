@@ -37,7 +37,7 @@ const Dropdown = (props) => {
   }, []);
 
   return (
-    <div className="bg-secondColor my-6 rounded-xl">
+    <div className="bg-secondColor mb-6 rounded-xl">
       <div className="header-part">
         <div className="content">
           <div className="mr-2">

@@ -3,7 +3,7 @@ import Item from "./Item";
 
 const Card = () => {
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex mb-6 justify-center items-center">
       <div className="grid lg:grid-cols-3 grid-cols-2 gap-4">
         <Item
           title="Pages"

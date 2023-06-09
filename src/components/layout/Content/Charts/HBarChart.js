@@ -82,7 +82,11 @@ export const data = {
 const barThickness = 5; // İncelik değeri
 
 const HBarChart = () => {
-  return <Bar options={{ ...options, barThickness }} data={data} />;
+  return (
+    <div className="p-7">
+      <Bar options={{ ...options, barThickness }} data={data} />
+    </div>
+  );
 };
 
 export default HBarChart;
