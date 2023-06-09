@@ -96,8 +96,10 @@ export const data = {
   ],
 };
 
-const barThickness = 5; // İncelik değeri
+const barThickness = 4; // İncelik değeri
 
-export function BarChart() {
+const VBarChart = () => {
   return <Bar options={{ ...options, barThickness }} data={data} />;
-}
+};
+
+export default VBarChart;

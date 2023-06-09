@@ -5,7 +5,7 @@ import "./style.css";
 
 const Item = (props) => {
   let combined = classNames(
-    "max-w-sm px-4 py-3 rounded-lg w-[140px] h-[140px]",
+    "max-w-sm px-4 py-3 rounded-lg w-[144px] h-[144px]",
     props.color
   );
 

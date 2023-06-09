@@ -31,6 +31,7 @@ export const options = {
           size: 10,
           weight: "bold",
         },
+        padding: 1,
       },
       grid: {
         display: false,
@@ -43,9 +44,10 @@ export const options = {
       ticks: {
         color: "#ADB8CC",
         font: {
-          size: 10,
+          size: 11,
           weight: "bold",
         },
+        padding: 1,
       },
     },
   },
@@ -79,6 +81,8 @@ export const data = {
 
 const barThickness = 5; // İncelik değeri
 
-export function BarChart() {
+const HBarChart = () => {
   return <Bar options={{ ...options, barThickness }} data={data} />;
-}
+};
+
+export default HBarChart;
