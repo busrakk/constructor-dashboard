@@ -12,5 +12,10 @@ This software uses the following open source packages:
 * circular-progress-bar
 * react-chartjs-2
 
+## 
+![image](https://github.com/busrakk/constructor-dashboard/assets/62840507/d219bbf8-e044-4495-95bd-ffc3d9df60ae0.png)
+
+
+
 
 
